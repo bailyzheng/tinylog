@@ -21,7 +21,7 @@ int init_tinylog()
 	return 0;
 }
 
-int printf2buf(char *fmt, ...)
+int printf2buf(const char *fmt, ...)
 {
 	char tmp_buf[MAX_ONE_LOG_SIZE];
 	va_list args;

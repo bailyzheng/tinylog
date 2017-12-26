@@ -53,7 +53,7 @@ typedef struct {
   size_t before_split_size;
   size_t after_split_size;
   size_t total_size;
-  const void *split;
+  void *split;
   void *fixed;
   void *shifting;
 } MemMap;

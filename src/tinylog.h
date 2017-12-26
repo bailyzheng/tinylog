@@ -17,8 +17,8 @@ extern "C"{
 #endif
 
 
-typedef int similar_printf_t(char *fmt, ...);
-int printf2buf(char *fmt, ...);
+typedef int similar_printf_t(const char *fmt, ...);
+int printf2buf(const char *fmt, ...);
 int dumplog(void *data, size_t count);
 size_t get_log_lenth();
 int init_tinylog();
